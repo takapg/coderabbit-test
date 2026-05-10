@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby File.read(".ruby-version").strip
+ruby file: ".ruby-version"
 
 group :development, :test do
   gem "rspec"
