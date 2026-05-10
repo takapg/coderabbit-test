@@ -20,7 +20,11 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version-file: '.ruby-version'
+       - name: Set up Ruby
+         uses: ruby/setup-ruby@v1
+         with:
+          ruby-version: '.ruby-version'
+           bundler-cache: true
           bundler-cache: true
 
       - name: Run RSpec
