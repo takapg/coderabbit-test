@@ -1,14 +1,11 @@
 # frozen_string_literal: true
 
 def greet(name)
+  result = "Hello, #{name}"
   if name == 'admin'
-    display_msg = "HELLO, #{name.upcase}"
-    puts display_msg
-    result = "Hello, " + name.to_s
-    return result
+    puts "HELLO, #{name.upcase}"
   else
-    result = "Hello, " + name.to_s
     puts result
-    return result
   end
+  result
 end
