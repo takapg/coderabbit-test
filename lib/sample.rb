@@ -7,5 +7,5 @@ def greet(name)
     puts msg
   end
 
-  return reslt 
+  return msg
 end
