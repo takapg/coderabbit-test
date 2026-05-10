@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-ruby file: ".ruby-version"
+ruby file: '.ruby-version'
 
 group :development, :test do
-  gem "rspec"
-  gem "rubocop", require: false
-  gem "rubocop-performance", require: false
+  gem 'rspec'
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
 end
