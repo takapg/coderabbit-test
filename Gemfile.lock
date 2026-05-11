@@ -58,5 +58,8 @@ DEPENDENCIES
   rubocop
   rubocop-performance
 
+RUBY VERSION
+   ruby 4.0.3p0
+
 BUNDLED WITH
    2.4.19
